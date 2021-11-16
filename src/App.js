@@ -1,12 +1,10 @@
-import './App.css';
 import $ from 'jquery';
-
 function App() {
 
   function storm1() {
     friendlyfunction();
     if ($('#clue').css('backgroundColor') ==='rgb(0, 0, 0)'){
-      $('#clue').css('backgroundColor','white');
+      $('#clue').css('backgroundColor','yellow');
       document.getElementById('friendly').play();
       setTimeout(storm1, 200 )
     }
@@ -18,7 +16,7 @@ function App() {
 
   function storm2() {
     if($('#clue').css('backgroundColor') ==='rgb(0, 0, 0)'){
-      $('#clue').css('backgroundColor','white');
+      $('#clue').css('backgroundColor','yellow');
       document.getElementById('evil').play();
       setTimeout(storm2, 200 )
     }
@@ -30,7 +28,7 @@ function App() {
 
   function storm3() {
     if($('#clue').css('backgroundColor') ==='rgb(0, 0, 0)'){
-      $('#clue').css('backgroundColor','white');
+      $('#clue').css('backgroundColor','yellow');
       document.getElementById('psycho').play();
       setTimeout(storm3, 200 )
     }
@@ -42,7 +40,7 @@ function App() {
 
   function storm4() {
     if($('#clue').css('backgroundColor') ==='rgb(0, 0, 0)'){
-      $('#clue').css('backgroundColor','white');
+      $('#clue').css('backgroundColor','yellow');
       document.getElementById('emo').play();
       setTimeout(storm4, 200 )
     }
